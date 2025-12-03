@@ -42,7 +42,7 @@ const Home: React.FC = () => {
             className="w-full p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200"
           >
             {
-              isLoading ? "Loading..." : "Generate Image"
+              isLoading ? "Loading...This will take a few seconds" : "Generate Image"
             }
           </button>
         </div>
